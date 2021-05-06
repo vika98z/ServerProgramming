@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\stety\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\stety\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_WebApplication.-735324542.00" t="ExcludeRecursive" />
+    <e p="C:\Users\stety\Documents\ServerProgramming\Lab 3" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="WebApplication" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AboutController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="WebApplication.AssemblyInfo.cs" t="Include" />
+              <e p="WebApplication.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="AboutUs.cshtml" t="Include" />
+          <e p="Contact.cshtml" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="Features.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="Portfolio.cshtml" t="Include" />
+          <e p="Pricing.cshtml" t="Include" />
+          <e p="Services.cshtml" t="Include" />
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+          </e>
+          <e p="Testimonials.cshtml" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WebApplication.csproj" t="IncludeRecursive" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="animate.css" t="Include" />
+            <e p="bootstrap-theme.css" t="Include" />
+            <e p="bootstrap-theme.min.css" t="Include" />
+            <e p="bootstrap.css" t="Include" />
+            <e p="bootstrap.min.css" t="Include" />
+            <e p="custom.css" t="Include" />
+            <e p="flaticon.css" t="Include" />
+            <e p="font-awesome.css" t="Include" />
+            <e p="font-awesome.min.css" t="Include" />
+            <e p="icomoon.css" t="Include" />
+            <e p="owl.carousel.css" t="Include" />
+            <e p="prettyPhoto.css" t="Include" />
+            <e p="responsive.css" t="Include" />
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="fonts" t="Include">
+            <e p="Flaticon.eot" t="Include" />
+            <e p="Flaticon.svg" t="Include" />
+            <e p="Flaticon.ttf" t="Include" />
+            <e p="Flaticon.woff" t="Include" />
+            <e p="fontawesome-webfont.eot" t="Include" />
+            <e p="fontawesome-webfont.svg" t="Include" />
+            <e p="fontawesome-webfont.ttf" t="Include" />
+            <e p="fontawesome-webfont.woff" t="Include" />
+            <e p="fontawesome-webfont.woff2" t="Include" />
+            <e p="FontAwesome.otf" t="Include" />
+            <e p="glyphicons-halflings-regular.eot" t="Include" />
+            <e p="glyphicons-halflings-regular.svg" t="Include" />
+            <e p="glyphicons-halflings-regular.ttf" t="Include" />
+            <e p="glyphicons-halflings-regular.woff" t="Include" />
+            <e p="glyphicons-halflings-regular.woff2" t="Include" />
+            <e p="IcoMoon-Free.ttf" t="Include" />
+          </e>
+          <e p="images" t="Include">
+            <e p="apple-touch-icon.png" t="Include" />
+            <e p="bg.png" t="Include" />
+            <e p="favicon.ico" t="Include" />
+            <e p="logo-politic.png" t="Include" />
+            <e p="logos" t="Include">
+              <e p="logo-2.png" t="Include" />
+              <e p="logo.png" t="Include" />
+            </e>
+            <e p="phonebg.png" t="Include" />
+            <e p="prettyPhoto" t="Include">
+              <e p="dark_rounded" t="Include">
+                <e p="btnNext.png" t="Include" />
+                <e p="btnPrevious.png" t="Include" />
+                <e p="contentPattern.png" t="Include" />
+                <e p="default_thumbnail.gif" t="Include" />
+                <e p="loader.gif" t="Include" />
+                <e p="sprite.png" t="Include" />
+              </e>
+              <e p="dark_square" t="Include">
+                <e p="btnNext.png" t="Include" />
+                <e p="btnPrevious.png" t="Include" />
+                <e p="contentPattern.png" t="Include" />
+                <e p="default_thumbnail.gif" t="Include" />
+                <e p="loader.gif" t="Include" />
+                <e p="sprite.png" t="Include" />
+              </e>
+              <e p="default" t="Include">
+                <e p="default_thumb.png" t="Include" />
+                <e p="loader.gif" t="Include" />
+                <e p="sprite.png" t="Include" />
+                <e p="sprite_next.png" t="Include" />
+                <e p="sprite_prev.png" t="Include" />
+                <e p="sprite_x.png" t="Include" />
+                <e p="sprite_y.png" t="Include" />
+              </e>
+              <e p="facebook" t="Include">
+                <e p="btnNext.png" t="Include" />
+                <e p="btnPrevious.png" t="Include" />
+                <e p="contentPatternBottom.png" t="Include" />
+                <e p="contentPatternLeft.png" t="Include" />
+                <e p="contentPatternRight.png" t="Include" />
+                <e p="contentPatternTop.png" t="Include" />
+                <e p="default_thumbnail.gif" t="Include" />
+                <e p="loader.gif" t="Include" />
+                <e p="sprite.png" t="Include" />
+              </e>
+              <e p="light_rounded" t="Include">
+                <e p="btnNext.png" t="Include" />
+                <e p="btnPrevious.png" t="Include" />
+                <e p="default_thumbnail.gif" t="Include" />
+                <e p="loader.gif" t="Include" />
+                <e p="sprite.png" t="Include" />
+              </e>
+              <e p="light_square" t="Include">
+                <e p="btnNext.png" t="Include" />
+                <e p="btnPrevious.png" t="Include" />
+                <e p="default_thumbnail.gif" t="Include" />
+                <e p="loader.gif" t="Include" />
+                <e p="sprite.png" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="js" t="Include">
+            <e p="all.js" t="Include" />
+            <e p="custom.js" t="Include" />
+            <e p="hoverdir.js" t="Include" />
+            <e p="modernizer.js" t="Include" />
+            <e p="portfolio.js" t="Include" />
+          </e>
+          <e p="style.css" t="Include" />
+          <e p="uploads" t="Include">
+            <e p="about_01.jpg" t="Include" />
+            <e p="about_02.jpg" t="Include" />
+            <e p="device_03.png" t="Include" />
+            <e p="features_01.jpg" t="Include" />
+            <e p="features_02.jpg" t="Include" />
+            <e p="features_03.jpg" t="Include" />
+            <e p="inner-bg.jpg" t="Include" />
+            <e p="ipad.png" t="Include" />
+            <e p="logo_01.png" t="Include" />
+            <e p="logo_02.png" t="Include" />
+            <e p="logo_03.png" t="Include" />
+            <e p="logo_04.png" t="Include" />
+            <e p="logo_05.png" t="Include" />
+            <e p="logo_06.png" t="Include" />
+            <e p="parallax_03.jpg" t="Include" />
+            <e p="parallax_04.jpg" t="Include" />
+            <e p="parallax_05.png" t="Include" />
+            <e p="portfolio_01.jpg" t="Include" />
+            <e p="portfolio_02.jpg" t="Include" />
+            <e p="portfolio_03.jpg" t="Include" />
+            <e p="portfolio_04.jpg" t="Include" />
+            <e p="portfolio_05.jpg" t="Include" />
+            <e p="portfolio_06.jpg" t="Include" />
+            <e p="portfolio_07.jpg" t="Include" />
+            <e p="portfolio_08.jpg" t="Include" />
+            <e p="portfolio_09.jpg" t="Include" />
+            <e p="portfolio_10.jpg" t="Include" />
+            <e p="service_01.jpg" t="Include" />
+            <e p="service_02.jpg" t="Include" />
+            <e p="service_03.jpg" t="Include" />
+            <e p="service_04.jpg" t="Include" />
+            <e p="slider_01.jpg" t="Include" />
+            <e p="slider_02.jpg" t="Include" />
+            <e p="slider_03.jpg" t="Include" />
+            <e p="testi_01.png" t="Include" />
+            <e p="testi_02.png" t="Include" />
+            <e p="testi_03.png" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="WebApplication.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

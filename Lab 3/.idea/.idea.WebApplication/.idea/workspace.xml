@@ -4,7 +4,10 @@
     <projectFile>WebApplication/WebApplication.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dcd39fe-9f95-4a64-bd11-0feb2d03d978" name="Default Changelist" comment="" />
+    <list default="true" id="2dcd39fe-9f95-4a64-bd11-0feb2d03d978" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WebApplication/Controllers/AboutController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 2/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab 2/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +43,7 @@
         <option value="$PROJECT_DIR$/WebApplication/Pages/Testimonials.cshtml" />
         <option value="$PROJECT_DIR$/WebApplication/Pages/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/WebApplication/Pages/Contact.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/AboutController.cs" />
       </list>
     </option>
   </component>
@@ -101,6 +105,7 @@
       <workItem from="1620229679806" duration="40000" />
       <workItem from="1620240051578" duration="2467000" />
       <workItem from="1620293233271" duration="281000" />
+      <workItem from="1620293565587" duration="1026000" />
     </task>
     <servers />
   </component>
@@ -109,6 +114,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
