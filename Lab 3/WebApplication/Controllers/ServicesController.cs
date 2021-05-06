@@ -8,6 +8,7 @@ namespace WebApplication.Controllers
   {
     public string Title;
     public string Text;
+    public string Icon;
   }
     
   public class ServicesController
