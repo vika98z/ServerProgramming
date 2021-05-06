@@ -1,4 +1,8 @@
 ﻿@page
+@model WebApplication.Models.ServicesModel
+@{
+    var servicesController = new Controllers.ServicesController();
+}
 
 <div class="banner-area banner-bg-1">
     <div class="container">
@@ -19,14 +23,16 @@
 <div id="about" class="section wb">
     <div class="container">
         <div class="row text-center">
+
+        
             <div class="col-md-3 col-sm-6">
                 <div class="about-item">
                     <div class="about-icon">
                         <span class="icon icon-display"></span>
                     </div>
                     <div class="about-text">
-                        <h3> <a href="#">Lorem ipsum dolor. </a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt. </p>
+                        <h3> <a href="#">@servicesController.Items[0].Title</a></h3>
+                        <p>@servicesController.Items[0].Text</p>
                     </div>
                 </div>
             </div>
@@ -36,8 +42,8 @@
                         <span class="icon icon-database"></span>
                     </div>
                     <div class="about-text">
-                        <h3> <a href="#">Lorem ipsum dolor. </a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt. </p>
+                        <h3> <a href="#">@servicesController.Items[1].Title</a></h3>
+                        <p>@servicesController.Items[1].Text</p>
                     </div>
                 </div>
             </div>
@@ -47,8 +53,8 @@
                         <span class="icon icon-magic-wand"></span>
                     </div>
                     <div class="about-text">
-                        <h3> <a href="#">Lorem ipsum dolor. </a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt. </p>
+                        <h3> <a href="#">@servicesController.Items[2].Title</a></h3>
+                        <p>@servicesController.Items[2].Text</p>
                     </div>
                 </div>
             </div>
@@ -58,8 +64,8 @@
                         <span class="icon icon-cloud"></span>
                     </div>
                     <div class="about-text">
-                        <h3> <a href="#">Lorem ipsum dolor. </a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt. </p>
+                        <h3> <a href="#">@servicesController.Items[3].Title</a></h3>
+                        <p>@servicesController.Items[3].Text</p>
                     </div>
                 </div>
             </div>
