@@ -1,8 +1,4 @@
-﻿@{ 
-    string getMenuClass(string page) => ViewData["page"].ToString() == page ? "active" : "";
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Basic -->
@@ -96,15 +92,15 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="@getMenuClass("Index")" href="@Url.Page("./Index")">Home</a></li>
-                        <li><a class="@getMenuClass("AboutUs")" href="@Url.Page("./AboutUs")">About us</a></li>
-                        <li><a class="@getMenuClass("Services")" href="@Url.Page("./Services")">Our Services</a></li>
-                        <li><a class="@getMenuClass("Portfolio")" href="@Url.Page("./Portfolio")">Portfolio</a></li>
-                        <li><a class="@getMenuClass("Features")" href="@Url.Page("./Features")">Features</a></li>
-                        <li><a class="@getMenuClass("Testimonials")" href="@Url.Page("./Testimonials")">Testimonials</a></li>
-                        <li><a class="@getMenuClass("Pricing")" href="@Url.Page("./Pricing")">Pricing</a></li>
-                        <li><a class="@getMenuClass("Contact")" href="@Url.Page("./Contact")">Contact</a></li>
-                    </ul>
+                                            <li><a asp-page="/Index">Home</a></li>
+                                            <li><a asp-page="/About-us">About us</a></li>
+                                            <li><a asp-page="/Services">Our Services</a></li>
+                                            <li><a asp-page="/Portfolio">Portfolio</a></li>
+                                            <li><a asp-page="/Features">Features</a></li>
+                                            <li><a asp-page="/Testimonials">Testimonials</a></li>
+                                            <li><a asp-page="/Pricing">Pricing</a></li>
+                                            <li><a asp-page="/Contact">Contact</a></li>
+                                        </ul>
                 </div>
             </div>
         </nav>

@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\stety\\Documents\\WebApplication\\WebApplication\\WebApplication.csproj",
+    "projectUniqueName": "C:\\Users\\stety\\Documents\\ServerProgramming\\Lab 2\\WebApplication\\WebApplication.csproj",
     "projectName": "WebApplication",
-    "projectPath": "C:\\Users\\stety\\Documents\\WebApplication\\WebApplication\\WebApplication.csproj",
-    "outputPath": "C:\\Users\\stety\\Documents\\WebApplication\\WebApplication\\obj\\",
+    "projectPath": "C:\\Users\\stety\\Documents\\ServerProgramming\\Lab 2\\WebApplication\\WebApplication.csproj",
+    "outputPath": "C:\\Users\\stety\\Documents\\ServerProgramming\\Lab 2\\WebApplication\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

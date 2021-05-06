@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0tDtB9BcmBShkAnxLl1L7FM4U03bHf+62Z8n/lxKP52hrY5goWf3f7cppvyDOKk+vDTyJrB1DO2EHaaHX82j5Q==",
+  "dgSpecHash": "EDWV14MsNsphpXB9vlvIl93ObLPbc3rJRPUdZtdDk0uAkpHcTmpy5Dk4LSmTPPLi6kDNP0J2jT4viaIDMULv8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stety\\Documents\\WebApplication\\WebApplication\\WebApplication.csproj",
+  "projectFilePath": "C:\\Users\\stety\\Documents\\ServerProgramming\\Lab 2\\WebApplication\\WebApplication.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

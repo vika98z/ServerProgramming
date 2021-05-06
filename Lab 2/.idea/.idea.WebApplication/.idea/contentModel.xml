@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\stety\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\stety\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_WebApplication.-951141082.00" t="ExcludeRecursive" />
-    <e p="C:\Users\stety\Documents\WebApplication" t="IncludeFlat">
+    <e p="C:\Users\stety\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_WebApplication.-326500317.00" t="ExcludeRecursive" />
+    <e p="C:\Users\stety\Documents\ServerProgramming\Lab 2" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="WebApplication" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
@@ -21,28 +21,19 @@
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="AboutUs.cshtml" t="Include" />
-          <e p="AboutUs.cshtml.cs" t="Include" />
           <e p="Contact.cshtml" t="Include" />
-          <e p="Contact.cshtml.cs" t="Include" />
           <e p="Error.cshtml" t="Include" />
           <e p="Error.cshtml.cs" t="Include" />
           <e p="Features.cshtml" t="Include" />
-          <e p="Features.cshtml.cs" t="Include" />
           <e p="Index.cshtml" t="Include" />
-          <e p="Index.cshtml.cs" t="Include" />
           <e p="Portfolio.cshtml" t="Include" />
-          <e p="Portfolio.cshtml.cs" t="Include" />
           <e p="Pricing.cshtml" t="Include" />
-          <e p="Pricing.cshtml.cs" t="Include" />
-          <e p="Privacy.cshtml.cs" t="Include" />
           <e p="Services.cshtml" t="Include" />
-          <e p="Services.cshtml.cs" t="Include" />
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
           </e>
           <e p="Testimonials.cshtml" t="Include" />
-          <e p="Testimonials.cshtml.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
