@@ -4,22 +4,7 @@
     <projectFile>WebApplication/WebApplication.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dcd39fe-9f95-4a64-bd11-0feb2d03d978" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Pages/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Contact.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Contact.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Features.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Features.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Portfolio.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Portfolio.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Pricing.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Pricing.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Services.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Services.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Testimonials.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Testimonials.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.Views.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="2dcd39fe-9f95-4a64-bd11-0feb2d03d978" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +99,7 @@
       <workItem from="1619000507117" duration="252000" />
       <workItem from="1620223540752" duration="5189000" />
       <workItem from="1620229679806" duration="40000" />
-      <workItem from="1620240051578" duration="2292000" />
+      <workItem from="1620240051578" duration="2467000" />
     </task>
     <servers />
   </component>
@@ -127,21 +112,21 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="135" key="GridCell.Tab.0.bottom" timestamp="1620292355841">
+    <state width="1877" height="135" key="GridCell.Tab.0.bottom" timestamp="1620292966506">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="135" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1620292355841" />
-    <state width="1877" height="135" key="GridCell.Tab.0.center" timestamp="1620292355840">
+    <state width="1877" height="135" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1620292966506" />
+    <state width="1877" height="135" key="GridCell.Tab.0.center" timestamp="1620292966506">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="135" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1620292355840" />
-    <state width="1877" height="135" key="GridCell.Tab.0.left" timestamp="1620292355840">
+    <state width="1877" height="135" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1620292966506" />
+    <state width="1877" height="135" key="GridCell.Tab.0.left" timestamp="1620292966506">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="135" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1620292355840" />
-    <state width="1877" height="135" key="GridCell.Tab.0.right" timestamp="1620292355840">
+    <state width="1877" height="135" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1620292966506" />
+    <state width="1877" height="135" key="GridCell.Tab.0.right" timestamp="1620292966506">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="135" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1620292355840" />
+    <state width="1877" height="135" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1620292966506" />
   </component>
 </project>
