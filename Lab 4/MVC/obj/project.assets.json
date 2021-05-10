@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stety\\Documents\\MVC\\MVC\\MVC.csproj",
+      "projectUniqueName": "C:\\Users\\stety\\Documents\\ServerProgramming\\Lab 4\\MVC\\MVC.csproj",
       "projectName": "MVC",
-      "projectPath": "C:\\Users\\stety\\Documents\\MVC\\MVC\\MVC.csproj",
+      "projectPath": "C:\\Users\\stety\\Documents\\ServerProgramming\\Lab 4\\MVC\\MVC.csproj",
       "packagesPath": "C:\\Users\\stety\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stety\\Documents\\MVC\\MVC\\obj\\",
+      "outputPath": "C:\\Users\\stety\\Documents\\ServerProgramming\\Lab 4\\MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
