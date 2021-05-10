@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MVC.Data;
 using MVC.Services;
-
+using Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore;
 namespace MVC
 {
   public class Startup
@@ -24,10 +24,9 @@ namespace MVC
       services.AddSingleton<IUserPorvider>(new UserProvider());
       services.AddSingleton<IPostProvider>(new PostProvider());
       
-      services.AddDbContext<SocialNetworkContext>(options =>
-        options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+      services.AddDbContext<SocialNetworkContext>();
       
-      //services.AddDatabaseDeveloperPageExceptionFilter();
+      //services.data AddDatabaseDeveloperPageExceptionFilter();
       
       services.AddControllersWithViews();
     }

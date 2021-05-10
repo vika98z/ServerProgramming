@@ -253,3 +253,4 @@ C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\bin\Debug\netcoreapp3.1\zh-
 C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PostCard.cshtml.g.cs
 C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_UserCard.cshtml.g.cs
+C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

@@ -23,35 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb821d8e-eb7c-4242-b609-e4c37bcb194b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab 4/.idea/.idea.MVC/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab 4/.idea/.idea.MVC/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab 4/.idea/.idea.MVC/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab 4/.idea/.idea.MVC/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab 4/.idea/.idea.MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab 4/.idea/.idea.MVC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab 4/.idea/.idea.MVC/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab 4/MVC/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab 4/MVC/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVC/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVC/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVC/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVC/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVC/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Data/DbInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Data/DbInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/Data/SocialNetworkContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Data/SocialNetworkContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/MVC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/MVC.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Models/Post.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Models/Post.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Services/PostProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Services/PostProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Services/UserProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Services/UserProvider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Views/Shared/_PostCard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Views/Shared/_PostCard.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Views/Shared/_UserCard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Views/Shared/_UserCard.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/Data/Posts.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.assets.cache" afterDir="false" />
@@ -60,17 +40,7 @@
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_PostCard.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_PostCard.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_UserCard.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_UserCard.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/MVC.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/MVC.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/MVC.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/MVC.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/project.packagespec.json" afterDir="false" />
@@ -95,6 +65,8 @@
       <option value="$PROJECT_DIR$/MVC/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/MVC/Models/User.cs" />
       <option value="$PROJECT_DIR$/MVC/Models/Post.cs" />
+      <option value="$PROJECT_DIR$/MVC/Program.cs" />
+      <option value="$PROJECT_DIR$/MVC/Data/SocialNetworkContext.cs" />
       <option value="$PROJECT_DIR$/MVC/Startup.cs" />
     </changedPaths>
   </component>
@@ -158,7 +130,7 @@
       <workItem from="1620330445968" duration="379000" />
       <workItem from="1620643380192" duration="6116000" />
       <workItem from="1620667074776" duration="1901000" />
-      <workItem from="1620679750106" duration="2691000" />
+      <workItem from="1620679750106" duration="5364000" />
     </task>
     <servers />
   </component>

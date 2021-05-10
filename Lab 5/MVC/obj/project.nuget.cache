@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ucPYLNBxOC4Zrdv1q4fmKSyDpGx3SsKSfOI49C8/EucEi/hvCx48S2cZ+1HW0H2nCWaK3GazH7AnD6MIEwzlHA==",
+  "dgSpecHash": "mVNwdfJq5XSjq8ugsKVYMzsOVk3XVsXpsT4KoHC7AbskO0yQ5YOYUA+sPbxoh6n8UdJItt3JaSJ7ozdT8lInvQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\stety\\Documents\\ServerProgramming\\Lab 5\\MVC\\MVC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\stety\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.14\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.14.nupkg.sha512",
     "C:\\Users\\stety\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\stety\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\stety\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
