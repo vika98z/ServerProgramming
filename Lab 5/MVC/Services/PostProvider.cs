@@ -18,20 +18,20 @@ namespace MVC.Services
         new Post
         {
           CreatedDate = new DateTime(2021, 1, 1),
-          Author = user,
+          User = user,
           Text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae nulla rem eos ipsa praesentium esse magnam nemo dolor sequi fuga quia quaerat cum, obcaecati hic, molestias minima iste voluptates."
         },
         new Post
         {
           CreatedDate = new DateTime(2021, 3, 1),
-          Author = user,
+          User = user,
           Text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae nulla rem eos ipsa praesentium esse magnam nemo dolor sequi fuga quia quaerat cum, obcaecati hic, molestias minima iste voluptates.",
           Image = "https://picsum.photos/300/300"
         },
         new Post
         {
           CreatedDate = new DateTime(2021, 5, 6),
-          Author = user,
+          User = user,
           Text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae nulla rem eos ipsa praesentium esse magnam nemo dolor sequi fuga quia quaerat cum, obcaecati hic, molestias minima iste voluptates.",
           Image = "https://picsum.photos/200/200"
         }

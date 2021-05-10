@@ -12,7 +12,7 @@ namespace MVC.Services
     public User GetCurrentUser()
     {
       return new User
-        {FullName = "csd", UserNsme = "sxsxsxs", Biography = ":))))))))))))", Image = "https://picsum.photos/150/150"};
+        {FullName = "csd", UserName = "sxsxsxs", Biography = ":))))))))))))", Image = "https://picsum.photos/150/150"};
     }
   }
 }
