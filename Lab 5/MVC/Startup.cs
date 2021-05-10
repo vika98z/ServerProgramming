@@ -1,13 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MVC.Data;
 using MVC.Services;
 
 namespace MVC
@@ -24,8 +21,14 @@ namespace MVC
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-      services.AddSingleton<IUserPorvider>(new UserProvider());
-      services.AddSingleton<IPostProvider>(new PostProvider());
+      //services.AddSingleton<IUserPorvider>(new UserProvider());
+      //services.AddSingleton<IPostProvider>(new PostProvider());
+      
+      services.AddDbContext<SocialNetworkContext>(options =>
+        options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+      
+      //services.AddDatabaseDeveloperPageExceptionFilter();
+      
       services.AddControllersWithViews();
     }
 

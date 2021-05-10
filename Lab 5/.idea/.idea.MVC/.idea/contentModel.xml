@@ -12,7 +12,8 @@
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
-          <e p="Posts.json" t="Include" />
+          <e p="DbInitializer.cs" t="Include" />
+          <e p="SocialNetworkContext.cs" t="Include" />
         </e>
         <e p="layout.html" t="Include" />
         <e p="Models" t="Include">
