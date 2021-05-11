@@ -1,36 +1,15 @@
 @model MVC.Models.User
-
 @{
     ViewData["Title"] = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+
 <div class="container-fluid gedf-wrapper">
     <div class="row">
+        
         <div class="col-md-3">
-            <div class="card">
-                <div class="card-body">
-                    <div class="image mb-2"><img class="rounded-circle" width="150" src="@Model.Image" alt=""></div>
-                    <div class="h5">@Model.FullName</div>
-                    <div>
-                        <span class="h7 text-muted">@@@Model.UserName</span>
-                        <button class="btn btn-primary btn-sm ml-3" type="button">Follow</button>
-                    </div>
-                    <div class="h7">
-                        @Model.Biography
-                    </div>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        <div class="h6 text-muted">Followers</div>
-                        <div class="h5">@Model.FollowersCount</div>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="h6 text-muted">Following</div>
-                        <div class="h5">@Model.FollowingCount</div>
-                    </li>
-                </ul>
-            </div>
+            @await Html.PartialAsync("_UserCard", Model)
         </div>
 
         <div class="col-md-6 gedf-main">
@@ -96,9 +75,9 @@
             </div>
             <!-- UserPage -->
 
-            @foreach (var post in Model.Posts.FindAll(x => x.Author.UserId == @Model.UserId))
+            @foreach (var post in Model.Posts)
             {
-                @Html.Partial("_PostCard", post);
+                @Html.PartialAsync("_PostCard", post);
             }
         </div>
     </div>

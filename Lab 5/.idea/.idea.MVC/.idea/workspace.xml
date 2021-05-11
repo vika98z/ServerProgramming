@@ -23,18 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb821d8e-eb7c-4242-b609-e4c37bcb194b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lab 4/.idea/.idea.MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab 4/.idea/.idea.MVC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Controllers/UsersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/Data/DbInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Data/DbInitializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Data/SocialNetworkContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Data/SocialNetworkContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Models/Post.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Models/Post.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Models/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/MyDb.db" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/MyDb.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Services/PostProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Services/PostProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Views/Shared/_PostCard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Views/Shared/_PostCard.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Views/Shared/_UserCard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Views/Shared/_UserCard.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/Views/Users/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Views/Users/Details.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.Views.pdb" afterDir="false" />
@@ -42,12 +36,9 @@
       <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_PostCard.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_PostCard.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_UserCard.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_UserCard.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Users/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Users/Details.cshtml.g.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,18 +69,18 @@
       <option value="$PROJECT_DIR$/MVC/Controllers/HomeController.cs" />
       <option value="$PROJECT_DIR$/MVC/Views/Shared/_Layout.cshtml" />
       <option value="$PROJECT_DIR$/MVC/Controllers/PostsController.cs" />
-      <option value="$PROJECT_DIR$/MVC/Controllers/UsersController.cs" />
       <option value="$PROJECT_DIR$/MVC/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/MVC/Data/SocialNetworkContext.cs" />
       <option value="$PROJECT_DIR$/MVC/Startup.cs" />
       <option value="$PROJECT_DIR$/MVC/Views/Shared/_UserCard.cshtml" />
-      <option value="$PROJECT_DIR$/MVC/Views/Users/Details.cshtml" />
       <option value="$PROJECT_DIR$/MVC/Program.cs" />
-      <option value="$PROJECT_DIR$/MVC/Models/User.cs" />
       <option value="$PROJECT_DIR$/MVC/Services/PostProvider.cs" />
       <option value="$PROJECT_DIR$/MVC/Views/Shared/_PostCard.cshtml" />
       <option value="$PROJECT_DIR$/MVC/Models/Post.cs" />
+      <option value="$PROJECT_DIR$/MVC/Controllers/UsersController.cs" />
       <option value="$PROJECT_DIR$/MVC/Data/DbInitializer.cs" />
+      <option value="$PROJECT_DIR$/MVC/Views/Users/Details.cshtml" />
+      <option value="$PROJECT_DIR$/MVC/Models/User.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sA4lkjESDWViVgwaQOvGbX7yg4" />
@@ -153,7 +144,7 @@
       <workItem from="1620643380192" duration="6116000" />
       <workItem from="1620667074776" duration="1901000" />
       <workItem from="1620679750106" duration="5364000" />
-      <workItem from="1620723629454" duration="16244000" />
+      <workItem from="1620723629454" duration="21386000" />
     </task>
     <servers />
   </component>
