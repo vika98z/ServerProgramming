@@ -13,12 +13,12 @@ namespace MVC.Models
     
     public string Biography { get; set; }
     
-    [Display(Name = "Following")]
-    public List<User> Following { get; set; }
-    [Display(Name = "Followers")]
-    public List<User> Followers { get; set; }
+    public uint FollowingCount { get; set; }
+    public uint FollowersCount { get; set; }
     
     [Display(Name = "UsersImage")]
     public string Image { get; set; } 
+    
+    public List<Post> Posts { get; set; } = new List<Post>();
   }
 }

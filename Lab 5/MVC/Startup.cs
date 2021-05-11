@@ -1,12 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MVC.Data;
-using MVC.Services;
-using Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore;
+
 namespace MVC
 {
   public class Startup
@@ -21,15 +19,7 @@ namespace MVC
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-      //services.AddSingleton<IUserPorvider>(new UserProvider());
-      //services.AddSingleton<IPostProvider>(new PostProvider());
-      
       services.AddDbContext<SocialNetworkContext>();
-      //services.AddDbContext<SocialNetworkContext>(options =>
-      //  options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-      
-      //services.data AddDatabaseDeveloperPageExceptionFilter();
-      
       services.AddControllersWithViews();
     }
 
@@ -53,12 +43,12 @@ namespace MVC
       app.UseRouting();
 
       app.UseAuthorization();
+      
 
-      app.UseEndpoints(endpoints =>
+      app.UseEndpoints(routes =>
       {
-        endpoints.MapControllerRoute(
-          name: "default",
-          pattern: "{controller=Home}/{action=Index}/{id?}");
+        routes.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
+        routes.MapControllerRoute(name: "default", pattern: "{controller=Users}/{action=Details}/{id}");
       });
     }
   }

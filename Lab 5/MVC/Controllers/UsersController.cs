@@ -13,10 +13,18 @@ namespace MVC.Controllers
     public class UsersController : Controller
     {
         private readonly SocialNetworkContext _context;
+        
+        public SocialNetworkContext Context;
+        
+        public void SetContext(SocialNetworkContext context)
+        {
+            Context = context;
+        }
 
         public UsersController(SocialNetworkContext context)
         {
             _context = context;
+            Context = context;
         }
 
         // GET: Users
