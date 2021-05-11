@@ -1,18 +1,14 @@
-﻿@using Microsoft.Extensions.Configuration
-@inject IConfiguration config
+﻿
 @{ 
     ViewData["Title"] = "Home Page";
-    var appOpt = config.GetSection(AppOptions.Key).Get<AppOptions>();
 }
-
-@model MVC.Models.ViewModels.BasicViewModel
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>@Model.Title - @appOpt.Name</title>
+    <title>ViewData["Title"]</title>
      <link rel="stylesheet" href="~/css/site.css" />
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.min.css">

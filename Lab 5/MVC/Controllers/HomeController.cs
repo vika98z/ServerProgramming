@@ -1,7 +1,8 @@
-﻿using System.Diagnostics;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MVC.Models;
-using MVC.Models.ViewModels;
 using MVC.Services;
 
 namespace MVC.Controllers
@@ -19,12 +20,12 @@ namespace MVC.Controllers
 
     public IActionResult Index()
     {
-      var model = new IndexViewModel();
+      var model = new View();
 
       model.Title = "Home Page";
-      
-      model.User = _user.GetCurrentUser();
-      model.Posts = _posts.GetPostsForUser(model.User);
+
+      model.Users = new List<User> {_user.GetCurrentUser()};
+      model.Posts = _posts.GetPostsForUser(model.Users[0]);
       
       return View(model);
     }

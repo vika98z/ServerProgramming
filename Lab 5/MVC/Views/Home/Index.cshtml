@@ -1,8 +1,7 @@
-﻿@model MVC.Models.ViewModels.IndexViewModel
-
-<div class="col-md-3">
-    @await Html.PartialAsync("_UserCard", Model.User)
-</div>
+﻿@page
+@{
+    ViewData["Title"] = "Home page";
+}
 
 <div class="col-md-6 gedf-main">
 
@@ -70,10 +69,7 @@
     </div>
 
     <!--- Post -->
-    @foreach (var item in Model.Posts)
-    {
-        @await Html.PartialAsync("_PostCard", item)
-    }
+
 
 </div>
 

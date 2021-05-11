@@ -17,4 +17,21 @@
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Models\ViewModels\**" />
+      <Compile Remove="Controllers\HomeController.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Models\ViewModels\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Models\ViewModels\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Models\ViewModels\**" />
+    </ItemGroup>
+
 </Project>

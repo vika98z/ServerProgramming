@@ -21,10 +21,12 @@ namespace MVC
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-      services.AddSingleton<IUserPorvider>(new UserProvider());
-      services.AddSingleton<IPostProvider>(new PostProvider());
+      //services.AddSingleton<IUserPorvider>(new UserProvider());
+      //services.AddSingleton<IPostProvider>(new PostProvider());
       
       services.AddDbContext<SocialNetworkContext>();
+      //services.AddDbContext<SocialNetworkContext>(options =>
+      //  options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
       
       //services.data AddDatabaseDeveloperPageExceptionFilter();
       
