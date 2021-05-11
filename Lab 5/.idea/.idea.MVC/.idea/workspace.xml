@@ -25,20 +25,20 @@
     <list default="true" id="cb821d8e-eb7c-4242-b609-e4c37bcb194b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Controllers/UsersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/MVC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/MVC.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Models/ViewModels/IndexViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Models/ViewModels/IndexViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/Views/Home/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Views/Home/Index.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/bin/Debug/netcoreapp3.1/MVC.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/MVC.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
@@ -59,21 +59,24 @@
     <setting file="file://$PROJECT_DIR$/MVC/Models/ViewModels/IndexViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MVC/Views/Shared/_PostCard.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60B4CAED-9553-4D9E-9BBA-8E623D3661FF/C/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MVC/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MVC/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/MVC/Pages/Users/Index.cshtml" />
-      <option value="$PROJECT_DIR$/MVC/Controllers/UsersController.cs" />
       <option value="$PROJECT_DIR$/MVC/Models/User.cs" />
       <option value="$PROJECT_DIR$/MVC/Models/Post.cs" />
       <option value="$PROJECT_DIR$/MVC/Program.cs" />
       <option value="$PROJECT_DIR$/MVC/Data/SocialNetworkContext.cs" />
       <option value="$PROJECT_DIR$/MVC/Data/DbInitializer.cs" />
       <option value="$PROJECT_DIR$/MVC/Models/ViewModels/IndexViewModel.cs" />
-      <option value="$PROJECT_DIR$/MVC/Controllers/HomeController.cs" />
-      <option value="$PROJECT_DIR$/MVC/Startup.cs" />
+      <option value="$PROJECT_DIR$/MVC/Views/Home/Index.cshtml.cs" />
       <option value="$PROJECT_DIR$/MVC/Views/Shared/_Layout.cshtml" />
+      <option value="$PROJECT_DIR$/MVC/Pages/Index.cshtml.cs" />
+      <option value="$PROJECT_DIR$/MVC/Pages/Index.cshtml" />
+      <option value="$PROJECT_DIR$/MVC/Controllers/UsersController.cs" />
+      <option value="$PROJECT_DIR$/MVC/Startup.cs" />
+      <option value="$PROJECT_DIR$/MVC/Controllers/HomeController.cs" />
       <option value="$PROJECT_DIR$/MVC/Views/Home/Index.cshtml" />
     </changedPaths>
   </component>
@@ -138,7 +141,7 @@
       <workItem from="1620643380192" duration="6116000" />
       <workItem from="1620667074776" duration="1901000" />
       <workItem from="1620679750106" duration="5364000" />
-      <workItem from="1620723629454" duration="5921000" />
+      <workItem from="1620723629454" duration="9815000" />
     </task>
     <servers />
   </component>

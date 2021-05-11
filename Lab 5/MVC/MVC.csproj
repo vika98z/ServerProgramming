@@ -19,7 +19,6 @@
 
     <ItemGroup>
       <Compile Remove="Models\ViewModels\**" />
-      <Compile Remove="Controllers\HomeController.cs" />
     </ItemGroup>
 
     <ItemGroup>
@@ -32,6 +31,10 @@
 
     <ItemGroup>
       <Content Remove="Models\ViewModels\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Pages" />
     </ItemGroup>
 
 </Project>

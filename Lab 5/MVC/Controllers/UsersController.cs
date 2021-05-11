@@ -35,6 +35,7 @@ namespace MVC.Controllers
 
             var user = await _context.Users
                 .FirstOrDefaultAsync(m => m.UserId == id);
+            
             if (user == null)
             {
                 return NotFound();
