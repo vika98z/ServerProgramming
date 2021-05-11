@@ -259,3 +259,8 @@ C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\obj\Debug\netcoreapp3.1\sta
 C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\obj\Debug\netcoreapp3.1\staticwebassets\MVC.StaticWebAssets.xml
 C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\obj\Debug\netcoreapp3.1\MVC.genruntimeconfig.cache
 C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Posts\Create.cshtml.g.cs
+C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Posts\Delete.cshtml.g.cs
+C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Posts\Details.cshtml.g.cs
+C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Posts\Edit.cshtml.g.cs
+C:\Users\stety\Documents\ServerProgramming\Lab 5\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Posts\Index.cshtml.g.cs

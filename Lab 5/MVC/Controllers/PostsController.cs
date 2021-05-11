@@ -10,22 +10,22 @@ using MVC.Models;
 
 namespace MVC.Controllers
 {
-    public class UsersController : Controller
+    public class PostsController : Controller
     {
         private readonly SocialNetworkContext _context;
 
-        public UsersController(SocialNetworkContext context)
+        public PostsController(SocialNetworkContext context)
         {
             _context = context;
         }
 
-        // GET: Users
+        // GET: Posts
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Users.ToListAsync());
+            return View(await _context.Posts.ToListAsync());
         }
 
-        // GET: Users/Details/5
+        // GET: Posts/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,35 +33,34 @@ namespace MVC.Controllers
                 return NotFound();
             }
 
-            var user = await _context.Users
-                .FirstOrDefaultAsync(m => m.UserId == id);
-            
-            if (user == null)
+            var post = await _context.Posts
+                .FirstOrDefaultAsync(m => m.PostId == id);
+            if (post == null)
             {
                 return NotFound();
             }
 
-            return View(user);
+            return View(post);
         }
 
-        // GET: Users/Create
+        // GET: Posts/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Users/Create
+        // POST: Posts/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("UserId,FullName,UserName,Biography,Image")] User user)
+        public async Task<IActionResult> Create([Bind("CreatedDate,PostId,Text,Image")] Post post)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    _context.Add(user);
+                    _context.Add(post);
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
@@ -73,10 +72,10 @@ namespace MVC.Controllers
                                              "Try again, and if the problem persists " +
                                              "see your system administrator.");
             }
-            return View(user);
+            return View(post);
         }
 
-        // GET: Users/Edit/5
+        // GET: Posts/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -84,22 +83,22 @@ namespace MVC.Controllers
                 return NotFound();
             }
 
-            var user = await _context.Users.FindAsync(id);
-            if (user == null)
+            var post = await _context.Posts.FindAsync(id);
+            if (post == null)
             {
                 return NotFound();
             }
-            return View(user);
+            return View(post);
         }
 
-        // POST: Users/Edit/5
+        // POST: Posts/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("UserId,FullName,UserName,Biography,Image")] User user)
+        public async Task<IActionResult> Edit(int id, [Bind("CreatedDate,PostId,Text,Image")] Post post)
         {
-            if (id != user.UserId)
+            if (id != post.PostId)
             {
                 return NotFound();
             }
@@ -108,12 +107,12 @@ namespace MVC.Controllers
             {
                 try
                 {
-                    _context.Update(user);
+                    _context.Update(post);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!UserExists(user.UserId))
+                    if (!PostExists(post.PostId))
                     {
                         return NotFound();
                     }
@@ -124,10 +123,10 @@ namespace MVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(user);
+            return View(post);
         }
 
-        // GET: Users/Delete/5
+        // GET: Posts/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -135,30 +134,30 @@ namespace MVC.Controllers
                 return NotFound();
             }
 
-            var user = await _context.Users
-                .FirstOrDefaultAsync(m => m.UserId == id);
-            if (user == null)
+            var post = await _context.Posts
+                .FirstOrDefaultAsync(m => m.PostId == id);
+            if (post == null)
             {
                 return NotFound();
             }
 
-            return View(user);
+            return View(post);
         }
 
-        // POST: Users/Delete/5
+        // POST: Posts/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var user = await _context.Users.FindAsync(id);
-            _context.Users.Remove(user);
+            var post = await _context.Posts.FindAsync(id);
+            _context.Posts.Remove(post);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool UserExists(int id)
+        private bool PostExists(int id)
         {
-            return _context.Users.Any(e => e.UserId == id);
+            return _context.Posts.Any(e => e.PostId == id);
         }
     }
 }
